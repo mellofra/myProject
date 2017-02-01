@@ -1,8 +1,7 @@
 #! usr/bin/python
 
-num = 80
+n2 = 80
+n2 = 45
+total = n1 % n2
 
-if(num > 80):
-	print("hello world")
-else:
-	print("end")
+print(total + 1)

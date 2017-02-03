@@ -1,0 +1,11 @@
+{
+
+ "name":"electron-olamundo",
+ "version":"0.1.0",
+ "main":"main.js",
+ "description":"A simple aplication by Nicolas Mello",
+ "author":"linuxdescomplicado",
+ "scripts": {
+  "starts":"electron main.js"
+ }
+}

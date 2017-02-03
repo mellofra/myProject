@@ -13,4 +13,3 @@ while(t != numberX):
 
 print("Repetition ", msg)
 print(t)
-

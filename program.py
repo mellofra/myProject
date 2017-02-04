@@ -3,7 +3,7 @@
 msg = "structure"
 n1 = 90
 n2 = 48
-numberX = 100000
+numberX = 10000
 t = n1 ** 2 / n2
 
 while(t != numberX):

@@ -1,15 +1,19 @@
 #! usr/bin/python
 
-msg = "structure"
-n1 = 90
-n2 = 48
-numberX = 10000
-t = n1 ** 2 / n2
+governant = 100
 
-while(t != numberX):
-	print(t)
-	print("-----")
-	t += 1
+people = 0
 
-print("Repetition ", msg)
-print(t)
+while(people <= governant):
+	print("control")
+	people += 1
+
+if(people > 100):
+	print("WAKE UP NOW!")
+	people = 12000000000
+	governant = 0
+
+print("CONTROL IS A ILLUSION")
+
+print("TRUE: ", people)
+print("FALSE: ", governant)

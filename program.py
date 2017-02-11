@@ -15,5 +15,5 @@ if(people > 100):
 
 print("CONTROL IS A ILLUSION")
 
-print("TRUE: ", people)
-print("FALSE: ", governant)
+print("THE TRUE: ", people)
+print("THE LIE: ", governant)

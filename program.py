@@ -1,19 +1,9 @@
 #! usr/bin/python
 
-governant = 100
+class Application:
+	def __init__(self, master=None):
+		pass
 
-people = 0
-
-while(people <= governant):
-	print("control")
-	people += 1
-
-if(people > 100):
-	print("WAKE UP NOW!")
-	people = 12000000000
-	governant = 0
-
-print("CONTROL IS A ILLUSION")
-
-print("THE TRUE: ", people)
-print("THE LIE: ", governant)
+root = Tk()
+Application(root)
+root.mainloop()

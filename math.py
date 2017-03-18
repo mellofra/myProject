@@ -17,6 +17,8 @@ while(resposta == ""):
         print(str("Senha: "), str(password))
     elif(resposta == "N"):
         print(str("Senha: ", str("--------")))
+    else:
+        print("Erro ao solicitar senha")
 
 #Solicita o numero para tirar a raiz
 n = 0
@@ -38,7 +40,7 @@ def raiz():
         
 if(name != "" and password != ""):
     raiz()
-elif(name == "" and password == ""):
+else:
     print("Internal error")
 
 print("fim")

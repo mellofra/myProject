@@ -11,21 +11,20 @@ password = str(input("Password: "))
 print("Bem vindo %s" + " " + name)
 print("Senha: %s" + " " + password)
 
-#Solicita o numero para tirar a raiz
+#Solicita o numero para calcular a raiz
 n = 0
 while(n == 0):
     n = int(input("Digite o numero para tirar a raiz :"))
 
-#Calcula e mostra a raiz quadrada do numero digitado    
+#Calcula e mostra a raiz quadrada do numero especificado pelo usuario  
 def raiz():
     r = math.sqrt(n)
-
     if(r % 2 == 0):
-        print(type(r))
         print(int(r))
+        print(type(r))
     else:
-        print type(r)
-        print(float(r))      
+        print(float(r))
+        print(type(r))      
         
 raiz()
 

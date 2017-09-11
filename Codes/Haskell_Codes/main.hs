@@ -1,6 +1,4 @@
-import Data.List
-import System.IO 
+import Data.list
+import System.IO
 
-lista = 2 : 4 : 6 :[]
-
-reLista = reverse lista 
+main = putStrLn "Hello, World"
